@@ -18,7 +18,7 @@ class Cliente : Persona{
 	void setNombres(string nom){nombres=nom;}
 	void setApellidos(string ape){apellidos=ape;}
 	void setDireccion(string dir){direccion=dir;}
-	void setTelefono(string tel){telefono = tel;}
+	void setTelefono(int tel){telefono = tel;}
 	//get (mostrar)
 	string getNit(){return nit;}
 	string getNombres(){return nombres;}
@@ -28,6 +28,6 @@ class Cliente : Persona{
 	//metodos
 	void mostrar(){
 		cout<<"............................"<<endl;
-		cout<<nit<<","<<nombres<<","<<apellidos,<<","<<direccion<<","<<telefono<<endl;
+		cout<<nit<<","<<nombres<<","<<apellidos<<","<<direccion<<","<<telefono<<endl;
 	}
 };
